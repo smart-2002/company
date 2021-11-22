@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kaartraadi Service Center</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js">
+    </script>
+    <style>
+        #banner {
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url(Homepage.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section id="banner">
+
+        <!----   <img src="image1.jpg"> ---->
+        <div class="navbar">
+            <a><img src="logo5.png" class="logo"></a>
+            <div id="sideNav">
+                <nav>
+                    <ul>
+                        <li><a href="#banner">HOME</a></li>
+                        <li><a href="#service">FEATURES</a></li>
+                        <li><a href="#feature">SERVICE</a></li>
+                        <li><a href="#ABOUT">ABOUT US</a></li>
+                        <li><a href="#">CONTACT</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+            <div id="menuBtn">
+                <img src="menu-icon-png-1-transparent.png" id="menu">
+            </div>
+        </div>
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            sideNav.style.right = "-250px"
+            menuBtn.onclick = function() {
+                if (sideNav.style.right == "-250px") {
+                    sideNav.style.right = "0";
+                } else {
+                    sideNav.style.right = "-250px"
+                }
+            }
+        </script>
+        <div class="content">
+            <h1>APPLIANCE SERVICE AND REPAIR</h1>
+            <div class="content2">
+                GIVE MISSED CALL TO
+                <div class="slider">
+                    <div>TODAY</div>
+                    <div>NOW</div>
+                    <div>BOOK</div>
+                </div>
+
+            </div>
+            <div class="btn">
+
+                <a class="mbscreenphone phonelink" href="tel:9994403424"><button type="button"> Call Now </button></a>
+            </div>
+        </div>
+
+    </section>
+    <section id="service">
+        <div class="title-text">
+            <p>FEATURES</p>
+            <h1>why choose us</h1>
+        </div>
+        <div class="service-box">
+            <div class="servicee">
+                <h1>Experienced Technician</h1>
+                <div class="service1">
+                    <div class="service-icon">
+                        <i class="fa fa-shield"></i>
+                    </div>
+                    <div class="service-text">
+                        <p>Providing service and customer support during field visits or dispatches.</p>
+                        <p> Managing all on site installation, repair, maintenance and test tasks.</p>
+                        <p> Diagnosing errors or technical problems and determining proper solutions.</p>
+                    </div>
+
+                </div>
+                <h1>Pre-Booking</h1>
+                <div class="service1">
+                    <div class="service-icon">
+                        <i class="fa fa-check-square-o"></i>
+                    </div>
+                    <div class="service-text">
+                        <p>Pre-Booking is required and will be serviced within 24 hours of Booking.</p>
+                    </div>
+                </div>
+                <h1>Affordable Price</h1>
+                <div class="service1">
+                    <div class="service-icon">
+                        <i class="fa fa-inr"></i>
+                    </div>
+                    <div class="service-text">
+                        <p>Service will be provided by good technicians who will provide the service at affordable prices.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <div id="slider">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image2.jpg" class="d-block w-100" alt="fridge">
+                    <div class="carousel-caption">
+                        <h5>Ac Service And Installation</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image3.jpg" class="d-block w-100" alt="washing machine">
+                    <div class="carousel-caption">
+                        <h5>Fridge Service And Installation</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image4.jpg" class="d-block w-100" alt="ac">
+                    <div class="carousel-caption">
+                        <h5>Washing Machine Service And Installation </h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </div>
+    <section id="feature">
+        <div class="title-text">
+            <p>SERVICE</p>
+            <h1>We Provide Better</h1>
+        </div>
+        <div class="feature-box">
+            <div class="single-feature">
+                <img src="image6.jpg" alt="ac service">
+                <div class="overlay"></div>
+                <div class="feature-desc">
+                    <h3>Ac Service</h3>
+                    <hr>
+                    <p>Service will be provided by good technicians</p>
+                </div>
+            </div>
+            <div class="single-feature">
+                <img src="image7.jpg" alt="fridge service">
+                <div class="overlay"></div>
+                <div class="feature-desc">
+                    <h3>Washing Machine Service</h3>
+                    <hr>
+                    <p>Service will be provided by good technicians</p>
+                </div>
+            </div>
+            <div class="single-feature">
+                <img src="image8.jpg" alt="washing machine service">
+                <div class="overlay"></div>
+                <div class="feature-desc">
+                    <h3>Refridgerator Service</h3>
+                    <hr>
+                    <p>Service will be provided by good technicians</p>
+                </div>
+            </div>
+            <div class="single-feature">
+                <img src="image10.jpg" alt="tv service">
+                <div class="overlay"></div>
+                <div class="feature-desc">
+                    <h3>Tv Service</h3>
+                    <hr>
+                    <p>Service will be provided by good technicians</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="ABOUT">
+        <div class="title-text">
+            <p>ABOUT US</p>
+            <h1>Our Team</h1>
+        </div>
+    </section>
+
+    <div class="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=+919994403424" target="_blank">
+            <img src="whatsapp.png">
+        </a>
+
+    </div>
+
+
+    <!--- <a class="lgscreenphone phonelink" href="https://www.youtube.com/channel/UCQQ9KdZl80R78hZjb8Q_3NQ"><img class="phoneicon" src="https://freeiconshop.com/wp-content/uploads/edd/phone-flat.png"></a>
+    <a class="mbscreenphone phonelink" href="tel:9994403424"><img class="phoneicon" src="https://freeiconshop.com/wp-content/uploads/edd/phone-flat.png"></a> -->
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+
+</body>
+
+
+</html>
